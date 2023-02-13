@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5974473170453258949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: -6274916816412546472}
-  range: 20
+  range: 100
   centrePoint: {fileID: 928857099011566758}
 --- !u!114 &1680403094384271864
 MonoBehaviour:
@@ -128,7 +128,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maison: {fileID: 5667103755975490644, guid: e09550d5fc9ca744ea9fb2e314eb849a, type: 3}
+  foodTag: Food
   speed: 70
+  visionRange: 30
 --- !u!195 &-6274916816412546472
 NavMeshAgent:
   m_ObjectHideFlags: 0
